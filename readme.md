@@ -13,8 +13,11 @@ $ npm install --save google-store-link
 ```js
 var googleStoreLink = require('google-store-link');
 
-googleStoreLink('com.duolingo', lang);
-//=> https://play.google.com/store/apps/details?id=com.duolingo
+googleStoreLink(id, lang);
+
+// Example
+googleStoreLink('com.duolingo', 'pt-PT');
+//=> https://play.google.com/store/apps/details?id=com.duolingo&hl=pt-PT
 ```
 
 
@@ -23,7 +26,6 @@ googleStoreLink('com.duolingo', lang);
 ### googleStoreLink(id, lang)
 
 #### id
-
 *Required*
 
 Type: `string`
@@ -41,7 +43,7 @@ Default: `null`;
 
 `https://play.google.com/store/apps/details?id=[the_id]&hl=[lang]`
 
-The language can be generally defined like "en" (English) or "pt" (Portuguese), but also more localized like "pt-PT" (Portguguese - Portugal).
+The language can be generally defined like "en" (English) or "pt" (Portuguese), but also more localized like "pt-PT" (Portuguese - Portugal).
 
 ## License
 
