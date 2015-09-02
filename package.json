@@ -1,0 +1,28 @@
+{
+  "name": "google-store-link",
+  "version": "0.0.0",
+  "description": "My tiptop module",
+  "license": "MIT",
+  "repository": "xipasduarte/google-store-link",
+  "author": {
+    "name": "Pedro Duarte",
+    "email": "pedro.duarte@tecnico.ulisboa.pt",
+    "url": "github.com/xipasduarte"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
