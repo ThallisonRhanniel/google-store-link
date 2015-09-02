@@ -1,19 +1,19 @@
 {
   "name": "google-store-link",
   "version": "0.0.0",
-  "description": "My tiptop module",
+  "description": "Custruct links to the Google Play Store.",
   "license": "MIT",
   "repository": "xipasduarte/google-store-link",
   "author": {
     "name": "Pedro Duarte",
-    "email": "pedro.duarte@tecnico.ulisboa.pt",
+    "email": "xipasduarte@gmail.com",
     "url": "github.com/xipasduarte"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "test npm"
   },
   "files": [
     "index.js"
@@ -21,7 +21,10 @@
   "keywords": [
     ""
   ],
-  "dependencies": {},
+  "dependencies": {
+    "is-empty": "^0.0.1",
+    "trim": "^0.0.1"
+  },
   "devDependencies": {
     "mocha": "^2.2.5"
   }
