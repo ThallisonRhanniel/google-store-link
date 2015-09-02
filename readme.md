@@ -1,7 +1,5 @@
 # google-store-link [![Build Status](https://travis-ci.org/xipasduarte/google-store-link.svg?branch=master)](https://travis-ci.org/xipasduarte/google-store-link)
 
-> My tiptop module
-
 
 ## Install
 
@@ -15,32 +13,35 @@ $ npm install --save google-store-link
 ```js
 var googleStoreLink = require('google-store-link');
 
-googleStoreLink('unicorns');
-//=> unicorns & rainbows
+googleStoreLink('com.duolingo', lang);
+//=> https://play.google.com/store/apps/details?id=com.duolingo
 ```
 
 
 ## API
 
-### googleStoreLink(input, [options])
+### googleStoreLink(id, lang)
 
-#### input
+#### id
 
-*Required*  
+*Required*
+
 Type: `string`
 
-Lorem ipsum.
+The string that identifies the application on Google Play Store.
 
-#### options
+`https://play.google.com/store/apps/details?id=[the_id]`
 
-##### foo
+#### lang
+*Optional*
 
-Type: `boolean`  
-Default: `false`
+Type: `string`;
+Default: `null`;
 
-Lorem ipsum.
+`https://play.google.com/store/apps/details?id=[the_id]&hl=[lang]`
 
+The language can be generally defined like "en" (English) or "pt" (Portuguese), but also more localized like "pt-PT" (Portguguese - Portugal).
 
 ## License
 
-MIT © [Pedro Duarte](http://github.com/xipasduarte)
+MIT © [Pedro Duarte](https://github.com/xipasduarte)
