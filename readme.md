@@ -36,6 +36,7 @@ The string that identifies the application on Google Play Store.
 *Optional*
 
 Type: `string`;
+
 Default: `null`;
 
 `https://play.google.com/store/apps/details?id=[the_id]&hl=[lang]`
