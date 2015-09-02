@@ -1,6 +1,6 @@
 {
   "name": "google-store-link",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Custruct links to the Google Play Store.",
   "license": "MIT",
   "repository": "xipasduarte/google-store-link",
